@@ -12,13 +12,13 @@ The app leverages two AI models:
 ## Project structure 
 - **Front-end**:  Developed in React.
   
-   Handles user interaction, PDF upload, and displays summarised text.
+   - Handles user interaction, PDF upload, and displays summarised text.
      
 - **Back-end**: Developed in Spring Boot and Python.
   
-     Provides REST API endpoints for text extraction and summarisation.
+     - Provides REST API endpoints for text extraction and summarisation.
   
-     Makes API calls to the AI models (A121 and Hugging Face)
+     - Makes API calls to the AI models (A121 and Hugging Face)
 
  ## Setup instructions
 
@@ -30,25 +30,25 @@ The app leverages two AI models:
 ## Front-end setup 
 1. Clone the repository:
 
-   `https://github.com/Selamkd/docuCrunch.git`
+    `https://github.com/Selamkd/docuCrunch.git`
 2. Change directory to docucrunch-front-end:
 
-   `cd front-end/docucrunch-front-end`
+    `cd front-end/docucrunch-front-end`
 3. Run the application:
  
-   `npm run dev`
+    `npm run dev`
  ## Back-end setup 
 
 
 1. Change directory to DocuCrunchBackEnd:
 
-   `cd back-end/DocuCrunchBackEnd`
+    `cd back-end/DocuCrunchBackEnd`
 2. Build the project:
  
-   `mvn clean install`
+    `mvn clean install`
 3. Run the application:
    
-   `mvn spring-boot:run`
+    `mvn spring-boot:run`
    
  ## API Endpoints 
  1. Summarise text
