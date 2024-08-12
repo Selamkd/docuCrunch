@@ -28,7 +28,26 @@ The app leverages two AI models:
   - Maven
 
 ## Front-end setup 
-
 1. Clone the repository:
+
+   `https://github.com/Selamkd/docuCrunch.git`
+2. Change directory to docucrunch-front-end:
+
+   `cd front-end/docucrunch-front-end`
+3. Run the application:
+ 
+   `npm run dev`
+ ## Back-end setup 
+
+
+1. Change directory to DocuCrunchBackEnd:
+
+   `cd back-end/DocuCrunchBackEnd`
+2. Build the project:
+ 
+   `mvn clean install`
+3. Run the application:
+   
+   `mvn spring-boot:run`
    
  
