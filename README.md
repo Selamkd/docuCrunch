@@ -1,1 +1,1 @@
-# docucrunch
+# Docucrunch (Document summariser Application)
