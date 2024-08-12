@@ -7,15 +7,15 @@ DocuCrunch is a web app that enables users to upload PDF documents or paste raw 
 The app leverages two AI models:
 
 - A121: used for summarising articles
-- Hugging Face models : used for summarising meeting minutes
+- Hugging Face model : used for summarising meeting minutes
 
 ## Project structure 
 - **Front-end**:  Developed in React.
-   - Handles user interaction, PDF upload, and displays summarised text.
+   Handles user interaction, PDF upload, and displays summarised text.
      
 - **Back-end**: Developed in Spring Boot and Python.
-   - Provides REST API endpoints for text extraction and summarisation.
-   - Makes API calls to the AI models (A121 and Hugging Face)
+     Provides REST API endpoints for text extraction and summarisation.
+     Makes API calls to the AI models (A121 and Hugging Face)
 
  ## Setup instructions
 
