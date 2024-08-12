@@ -10,10 +10,10 @@ The app leverages two AI models:
 - Hugging Face model : used for summarising meeting minutes
 
 ## Project structure 
-**Front-end**:  Developed in React.
+**Front-end**(React)
   - Handles user interaction, PDF upload, and displays summarised text.
      
-**Back-end**: Developed in Spring Boot and Python.
+**Back-end**(Spring/Python)
   - Provides REST API endpoints for text extraction and summarisation.
   - Makes API calls to the AI models (A121 and Hugging Face)
 
