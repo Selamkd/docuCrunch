@@ -50,4 +50,22 @@ The app leverages two AI models:
    
    `mvn spring-boot:run`
    
- 
+ ## API Endpoints 
+ 1. Summarise text
+    - Endpoint: /api/summarise
+    - Method: POST
+    - Content-Type: application/json
+      
+Takes user input and returns the summarised content 
+
+ ## CORS Configuration
+
+ The application uses a predefined CORS configuration to allow requests from the front-end. You can adjust the allowed origins (e.g., localhost addresses) in the configuration file.
+
+ - 	File: src/main/java/com/sparta/docucrunchbackend/config/CorsConfig.java
+
+## AI Models Configuration
+
+The models are configured in the service layer and can be adjusted according to the specific use case. The models require authentication tokens, which are stored in the application.properties file. Users must provide their own tokens by updating the relevant properties in this file before running the application. 
+
+📫 If you come across any bugs, please don't hesitate to open an issue to inform us. Additionally, we appreciate any suggestions for updates or improvements you may have!
