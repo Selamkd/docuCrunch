@@ -11,10 +11,11 @@ The app leverages two AI models:
 
 ## Project structure 
 - Front-end:  Developed in React.
-   - Handles user interaction, PDF upload, and displays summarised text.
+   -- Handles user interaction, PDF upload, and displays summarised text.
+     
 - Back-end: Developed in Spring Boot and Python.
-   - Provides REST API endpoints for text extraction and summarisation.
-   - Makes API calls to the AI models (A121 and Hugging Face)
+   -- Provides REST API endpoints for text extraction and summarisation.
+   -- Makes API calls to the AI models (A121 and Hugging Face)
  
-   - 
+     
  
